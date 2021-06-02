@@ -49,5 +49,6 @@ Some Pomeranians and long-haired Chihuahuas can be difficult to distinguish even
 The model also tend to classify images wrongly whenever there are two types of dogs in the same image.
 
 **Fine Tuning**
+
 If you attempt to do fine tuning, don't turn on too many layers for training. There is insufficient data to train the the initial layers. 
 
