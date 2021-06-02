@@ -37,10 +37,14 @@ As I will be using the ImageDataGenerator class's method called flow_from_direct
 ![Model_loss](https://user-images.githubusercontent.com/61535921/120509996-97727380-c3fb-11eb-9ea3-587b8d6136a3.png)
 ![ConfusionMatrix](https://user-images.githubusercontent.com/61535921/120510003-993c3700-c3fb-11eb-8d83-553dccec670c.png)
 
+**Wrongly Classified Images**
+![WronglyClassified](https://user-images.githubusercontent.com/61535921/120510274-d7d1f180-c3fb-11eb-8cbf-2539db63c750.png)
+
 ### Some Observation
 Start with a small fully connected layer. Because there is only small number of images available for training, if you have a large fully connected layer for classification, it will tend to overfit easily or the network simply memorized the training data.
 
 High dropout rate will cause wild swings in the training data. 
 
+Some Pomeranians and long-haired Chihuahuas can be difficult to distinguish even for humans. 
 The model also tend to classify images wrongly whenever there are two types of dogs in the same image.
 
